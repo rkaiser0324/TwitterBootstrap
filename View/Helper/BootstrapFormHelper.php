@@ -163,7 +163,7 @@ class BootstrapFormHelper extends FormHelper {
 	public function submit($caption = null, $options = array()) {
 		$default = array(
 			'type' => 'submit',
-			'class' => self::CLASS_BUTTON,
+			'class' => self::CLASS_BUTTON . ' btn-primary',
 			'div' => self::CLASS_ACTION,
 			'icon' => null,
 		);

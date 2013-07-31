@@ -151,7 +151,7 @@
 		if ($this-><?php echo $currentModelName; ?>->delete()) {
 <?php if ($wannaUseSession): ?>
 			$this->Session->setFlash(
-				__('The %s deleted', __('<?php echo strtolower($singularHumanName); ?>')),
+				__('The %s was deleted', __('<?php echo strtolower($singularHumanName); ?>')),
 				'alert',
 				array(
 					'plugin' => 'TwitterBootstrap',
